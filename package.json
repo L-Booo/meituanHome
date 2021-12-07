@@ -1,0 +1,53 @@
+{
+  "name": "meituan",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@craco/craco": "^6.3.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "ally": "^0.2.13",
+    "antd": "^4.16.13",
+    "babel-plugin-import": "^1.13.3",
+    "craco-less": "^1.20.0",
+    "css-loader": "^6.5.0",
+    "customize-cra": "^1.0.0",
+    "less": "2.7.3",
+    "navigation": "^5.5.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router": "^5.2.1",
+    "react-scripts": "4.0.3",
+    "style-loader": "^3.3.1",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "set PORT=3000 && craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "less-loader": "5.0.0"
+  }
+}
